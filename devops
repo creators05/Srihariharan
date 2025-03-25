@@ -1,2 +1,6 @@
-this is a project site
-it is used to create projects
+def multiply_by_unit_digit(numbers):
+    reset=[num*(abs(num)%10)for num in numbers]
+    return result
+    numbers=list(map(int,input("enter number seperated by space:").split()))
+    output=multiply_by_unit_digit(numbers)
+    print("Result",output)
